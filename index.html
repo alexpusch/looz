@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.1/fullcalendar.min.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment-with-locales.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.1/fullcalendar.min.js"></script>
+
+  <style type='text/css'>
+
+  body {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+  }
+
+  #container{
+    width: 1400px;
+    margin: auto
+  }
+
+  #calendar {
+    width: 750px;
+    margin: 0 auto;
+    float: right;
+    height: 700px;
+  }
+
+  .text-schedual{
+    float: left;
+  }
+
+  .text-schedual textarea{
+    width: 600px;
+    height: 700px;
+    padding-bottom: 50px;
+    font-size: 16pt;
+    padding: 10px;
+    direction: rtl;
+  }
+
+  .lecture{
+    background: lightgreen;
+    color: black;
+  }
+
+  .ex{
+    background: lightblue;
+    color: black;
+  }
+
+  .project{
+    background: yellow;
+    color: black;
+  }
+
+  .recess{
+    background: orange;
+  }
+
+</style>
+  <script type="text/javascript" src="calander.js"></script>
+</head>
+<body>
+  <div id="container">
+    <h1> LOOZ </h1>
+    <div class="text-schedual">
+      <form>
+        <textarea></textarea>
+      </form>
+    </div>
+    <div id='calendar'></div>
+  </div>
+</body>
+</html>
